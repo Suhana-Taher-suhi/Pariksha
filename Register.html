@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<link rel="stylesheet" type="text/css" href="Register.css">
+ <script src="Register.js"></script> 
+<body>
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+<body>
+  <h1>Registration form</h1>
+  <div class="form-container">
+    <form name="registerForm"  method = "get" action="StoringServlet">
+     
+      <label for="username">user Name *</label>
+      <input type="text" id="userName" placeholder="user-name" required name = "username"/>
+      <p class="error-message"></p>
+      <label for="e-mail">E-mail address *</label>
+      <input type="text" id="e-mail" placeholder="mail-id" required name="Email"/>
+      <p class="error-message"></p>
+      <label for="phoneNumber">Phone Number</label>
+      <input type="text" id="phoneNumber" maxlength="10" pattern=".{10,}" name="phone"  required title="10 characters length"placeholder="phone number"/>
+      <p class="error-message"></p>
+      
+      <label for="password">Password *</label>
+      <input type="password" id="password" pattern=".{8,}"  name="password" required title="8 characters and 1 number minimum" placeholder = "password"/>
+      <p class="error-message"></p>
+      <p class="password-rules">Your password should contain at least 8 characters and 1 number.</p>
+
+        <input class="button" type="submit" value="submit" name="submit" onClick="formValidation()" formaction="Homepage.html" />
+</form>
+    
+  </div>
+</body>
+
+</body>
+</html>
