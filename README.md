@@ -1,0 +1,2 @@
+# Pariksha
+The online examination system consists a web server with database facility. The server of this system is mostly configured with proper security  measures.  Students can connect yourself through the internet to the server and take the exam. The one most important thing about this system is that examiners can also connect to the server with the help of the internet for setting up papers and to do other related tasks.  Generally there are two main important options available in this web server facility.
